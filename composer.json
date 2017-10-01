@@ -1,0 +1,21 @@
+{
+  "type": "library",
+  "name": "hooloovoo/config",
+  "description": "Simple configuration tool",
+  "keywords": ["config"],
+  "homepage": "https://github.com/vnejedly/config",
+  "license": "MIT",
+  "authors": [{
+    "name": "Vladislav Nejedlý",
+    "email": "vladislav.nejedly@gmail.com",
+    "homepage": "https://www.linkedin.com/in/vladislav-nejedl%C3%BD-7140117b"
+  }],
+  "autoload": {
+    "psr-4": {
+      "Hooloovoo\\Config\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0"
+  }
+}
